@@ -16,7 +16,6 @@ What need to do at the server:
 3) sudo vim /etc/fusionpbx/config.php
 $db_host = 'YOUR_DB_HOST'; //set the host only if the database is not local
 4) crontab:
-# check local and remote db and change /etc/hosts:
 */5 * * * * root /YOUR_DESTINATION_TO_THE_SCRIPT
 
 
